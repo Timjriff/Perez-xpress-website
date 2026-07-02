@@ -190,7 +190,7 @@ a {
 .hero-media {
   background:
     linear-gradient(90deg, rgba(17, 23, 17, 0.9), rgba(17, 23, 17, 0.42), rgba(17, 23, 17, 0.72)),
-    url("https://images.unsplash.com/photo-1590496793929-36417d3117de?auto=format&fit=crop&w=1900&q=82") center / cover;
+    url("hero.jpg") center center / cover;
   transform: scale(1.02);
 }
 
