@@ -96,14 +96,9 @@ a {
 }
 
 .brand-logo {
-  width: 92px;
-  height: 70px;
-  padding: 5px;
-  border: 2px solid rgba(5, 5, 5, 0.9);
-  border-radius: 8px;
+  width: 112px;
+  height: 78px;
   object-fit: contain;
-  background: #ffffff;
-  box-shadow: 4px 4px 0 rgba(5, 5, 5, 0.92);
 }
 
 .nav-links {
@@ -807,8 +802,8 @@ details p {
 }
 
 .footer .brand-logo {
-  width: 104px;
-  height: 80px;
+  width: 124px;
+  height: 88px;
 }
 
 @media (max-width: 1050px) {
@@ -886,9 +881,8 @@ details p {
   }
 
   .brand-logo {
-    width: 74px;
-    height: 58px;
-    padding: 4px;
+    width: 92px;
+    height: 64px;
   }
 
   .hero {
