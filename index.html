@@ -89,22 +89,38 @@
     </header>
 
     <main id="home">
-      <section class="hero">
-        <div class="hero-media" role="img" aria-label="Junk removal truck and cleanup crew"></div>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" role="img" aria-label="Junk removal crew loading a truck">
+          <video
+            class="hero-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            poster="hero.jpg"
+            disablepictureinpicture
+            aria-hidden="true"
+          >
+            <source
+              src="https://videos.pexels.com/video-files/34874336/14776976_3840_2160_50fps.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
           <div class="hero-grid">
             <div class="hero-copy-wrap">
-              <p class="eyebrow">Riverside County junk removal and lawn care</p>
-              <h1>Your One Stop Shop for Clean Spaces</h1>
+              <p class="eyebrow">Riverside County junk removal • Same-day options</p>
+              <h1 id="hero-title">Junk Gone. Space Reclaimed.</h1>
               <p class="hero-copy">
-                Perez Xpress clears junk, hauls bulky items, handles property cleanouts,
-                and keeps yards maintained with fast scheduling across Corona, Perris,
-                Lake Elsinore, Menifee, Murrieta, Temecula, and nearby cities.
+                Perez Xpress clears furniture, appliances, construction debris, and full
+                property cleanouts with fast scheduling across Riverside County.
               </p>
               <div class="hero-actions">
-                <a class="button button-primary" href="tel:+19512161528">Call (951) 216-1528</a>
-                <a class="button button-secondary" href="#contact">Get a Fast Quote</a>
+                <a class="button button-primary" href="#contact">Get My Free Quote</a>
+                <a class="button button-secondary" href="tel:+19512161528">Call (951) 216-1528</a>
               </div>
             </div>
           </div>
