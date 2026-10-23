@@ -472,7 +472,7 @@ textarea {
 
 .seo-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 14px;
 }
 
@@ -512,6 +512,10 @@ textarea {
   border-radius: 8px;
   object-fit: cover;
   box-shadow: var(--shadow);
+}
+
+.service-detail img.before-after {
+  aspect-ratio: 3 / 2;
 }
 
 .service-detail-alt {
