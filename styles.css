@@ -52,12 +52,15 @@ a {
 }
 
 .site-header {
-  position: sticky;
+  position: absolute;
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 50;
-  background: rgba(251, 250, 245, 0.94);
-  border-bottom: 1px solid var(--line);
-  backdrop-filter: blur(18px);
+  color: #ffffff;
+  background: rgba(17, 23, 17, 0.34);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(12px);
 }
 
 .topbar {
@@ -66,7 +69,7 @@ a {
   gap: 26px;
   padding: 8px 20px;
   color: #ffffff;
-  background: var(--charcoal);
+  background: rgba(17, 23, 17, 0.72);
   font-size: 13px;
   font-weight: 800;
 }
@@ -110,12 +113,12 @@ a {
 }
 
 .nav-links a {
-  color: #333b31;
+  color: rgba(255, 255, 255, 0.94);
   transition: color 160ms ease, transform 160ms ease;
 }
 
 .nav-links a:hover {
-  color: var(--olive-dark);
+  color: var(--gold);
   transform: translateY(-1px);
 }
 
@@ -155,9 +158,9 @@ a {
   display: none;
   width: 46px;
   height: 46px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(255, 255, 255, 0.34);
   border-radius: 8px;
-  background: #ffffff;
+  background: rgba(17, 23, 17, 0.58);
 }
 
 .menu-toggle span {
@@ -165,12 +168,12 @@ a {
   width: 20px;
   height: 2px;
   margin: 4px auto;
-  background: var(--ink);
+  background: #ffffff;
 }
 
 .hero {
   position: relative;
-  min-height: clamp(680px, 82svh, 860px);
+  min-height: clamp(780px, 100svh, 960px);
   display: grid;
   align-items: center;
   overflow: hidden;
@@ -213,7 +216,7 @@ a {
   width: 100%;
   max-width: 1220px;
   margin: 0 auto;
-  padding: 92px 22px 150px;
+  padding: 220px 22px 150px;
   color: #ffffff;
 }
 
@@ -844,6 +847,10 @@ details p {
 
   .nav-links.is-open {
     display: flex;
+    padding: 12px 18px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 8px;
+    background: rgba(17, 23, 17, 0.9);
   }
 
   .nav-links a {
@@ -897,7 +904,7 @@ details p {
   }
 
   .hero {
-    min-height: 650px;
+    min-height: 790px;
   }
 
   .hero-video {
@@ -905,7 +912,7 @@ details p {
   }
 
   .hero-content {
-    padding-top: 58px;
+    padding-top: 220px;
     padding-bottom: 104px;
   }
 
@@ -963,3 +970,4 @@ details p {
     display: none;
   }
 }
+
