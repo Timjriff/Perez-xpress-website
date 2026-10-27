@@ -177,7 +177,7 @@ a {
 
 .hero {
   position: relative;
-  min-height: clamp(780px, 100svh, 960px);
+  min-height: clamp(840px, 106svh, 1020px);
   display: grid;
   align-items: center;
   overflow: hidden;
@@ -906,7 +906,7 @@ details p {
   }
 
   .hero {
-    min-height: 790px;
+    min-height: 850px;
   }
 
   .hero-media {
