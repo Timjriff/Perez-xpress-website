@@ -850,11 +850,25 @@ blockquote {
   margin-top: auto;
 }
 
-.review-card footer span:not(.review-avatar) {
+.review-card footer span:not(.review-avatar),
+.review-source-link {
   display: block;
   color: var(--muted);
   font-size: 13px;
   font-weight: 750;
+}
+
+.google-review-link {
+  text-decoration: underline;
+  text-decoration-color: rgba(65, 84, 38, 0.35);
+  text-underline-offset: 3px;
+  transition: color 160ms ease, text-decoration-color 160ms ease;
+}
+
+.google-review-link:hover,
+.google-review-link:focus-visible {
+  color: var(--olive-dark);
+  text-decoration-color: var(--gold);
 }
 
 .review-avatar {
