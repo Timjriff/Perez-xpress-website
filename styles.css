@@ -535,6 +535,22 @@ textarea {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
+.pricing-showcase {
+  display: grid;
+  gap: 20px;
+}
+
+.pricing-showcase-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 1;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid rgba(17, 23, 17, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 14px 40px rgba(17, 23, 17, 0.1);
+}
+
 .price-card,
 .service-grid article,
 .process-grid article,
@@ -1276,3 +1292,10 @@ details p {
   }
 }
 
+
+
+@media (max-width: 640px) {
+  .pricing-showcase-image {
+    aspect-ratio: 16 / 9;
+  }
+}
